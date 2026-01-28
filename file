@@ -1,0 +1,16 @@
+  969  cd Downloads
+  970  rm -f photo_2025-08-06\ 15.46.40.jpeg
+  971  rm -f photo_2025-08-06\ 15.46.46.jpeg
+  972  brew install docker docker-compose
+  973  brew install nginx
+  974  brew install btop
+  975  btop
+  976  sudo
+  977  man grep
+  978  w
+  979  clear
+  980  echo Hello
+  981  echo Hello > file
+  982  ls
+  983  more file
+  984  history
