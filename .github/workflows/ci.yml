@@ -23,14 +23,14 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-          cache: pip
+          cache: "pip"
 
       - name: Install dependencies
         run: pip install -r requirements.txt
 
       - name: Django system check
         env:
-          SECRET_KEY: ci-only-not-for-production
+          SECRET_KEY: ci-temporary-test-key-not-for-production
           DEBUG: "False"
           DATABASE_URL: sqlite:///ci.sqlite3
         run: python manage.py check
